@@ -1,0 +1,225 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Nick/Documents/Connect4Project
+vclockdivider
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1480990261
+!i10b 1
+!s100 X1R7=2jL=9kkHkLY3T^Vj3
+IEFC0XQOYSNj>`1c1aSzm]3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clockdivider_sv_unit
+S1
+R0
+w1480989580
+8C:/Users/Nick/Documents/Connect4Project/clockdivider.sv
+FC:/Users/Nick/Documents/Connect4Project/clockdivider.sv
+L0 1
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z5 !s108 1480990261.000000
+!s107 C:/Users/Nick/Documents/Connect4Project/clockdivider.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/clockdivider.sv|
+!i113 1
+Z6 o-sv -work work
+vConnect4
+R1
+R2
+!i10b 1
+!s100 mM2`V_;ngljai;0[Ao10J3
+IVkRUMCV:BoFfL[1bJ[UdB1
+R3
+!s105 Connect4_sv_unit
+S1
+R0
+w1480988630
+8C:/Users/Nick/Documents/Connect4Project/Connect4.sv
+FC:/Users/Nick/Documents/Connect4Project/Connect4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Nick/Documents/Connect4Project/Connect4.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/Connect4.sv|
+!i113 1
+R6
+n@connect4
+vControl
+R1
+R2
+!i10b 1
+!s100 Gd5nKBn2l7]ZHU0Lo30NN1
+IQEnVE_A59=IYeZaiTiW0[3
+R3
+!s105 Control_sv_unit
+S1
+R0
+Z7 w1480838871
+8C:/Users/Nick/Documents/Connect4Project/Control.sv
+FC:/Users/Nick/Documents/Connect4Project/Control.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Nick/Documents/Connect4Project/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/Control.sv|
+!i113 1
+R6
+n@control
+vdisplay_FSM
+R1
+R2
+!i10b 1
+!s100 QAocmG?^n5`1OWdl3PF4g3
+IXP=cIz9N2D7?HGTJA`]5E2
+R3
+!s105 display_FSM_sv_unit
+S1
+R0
+R7
+8C:/Users/Nick/Documents/Connect4Project/display_FSM.sv
+FC:/Users/Nick/Documents/Connect4Project/display_FSM.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Nick/Documents/Connect4Project/display_FSM.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/display_FSM.sv|
+!i113 1
+R6
+ndisplay_@f@s@m
+vEdge_Sync
+R1
+Z8 !s110 1480990260
+!i10b 1
+!s100 UDEiboj@>Dj3]jV;5NY:60
+Ill;ZbR`FBn@_g?:Oml7X83
+R3
+!s105 Edge_Sync_sv_unit
+S1
+R0
+R7
+8C:/Users/Nick/Documents/Connect4Project/Edge_Sync.sv
+FC:/Users/Nick/Documents/Connect4Project/Edge_Sync.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1480990260.000000
+!s107 C:/Users/Nick/Documents/Connect4Project/Edge_Sync.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/Edge_Sync.sv|
+!i113 1
+R6
+n@edge_@sync
+vFSM_Col
+R1
+R8
+!i10b 1
+!s100 FWUnTB0:9WT722WaF4icN3
+I41aX9kXX]^AWi@YLTbYhK1
+R3
+!s105 FSM_COL_sv_unit
+S1
+R0
+R7
+8C:/Users/Nick/Documents/Connect4Project/FSM_COL.sv
+FC:/Users/Nick/Documents/Connect4Project/FSM_COL.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Nick/Documents/Connect4Project/FSM_COL.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/FSM_COL.sv|
+!i113 1
+R6
+n@f@s@m_@col
+vMemory
+R1
+R8
+!i10b 1
+!s100 mn>Oe^oGWA0TjOcOo3NE93
+IA1H`cZd`7GSf4E3`7fn0h3
+R3
+!s105 Memory_sv_unit
+S1
+R0
+w1480987617
+8C:/Users/Nick/Documents/Connect4Project/Memory.sv
+FC:/Users/Nick/Documents/Connect4Project/Memory.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Nick/Documents/Connect4Project/Memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|-suppress|7061|C:/Users/Nick/Documents/Connect4Project/Memory.sv|
+!i113 1
+o-suppress 7061 -sv -work work
+n@memory
+vtestConnect
+R1
+R2
+!i10b 1
+!s100 X:h18AJcmV9X2R[NS2U?41
+Iz21Bd:[ci@czQdiP0MVNI1
+R3
+!s105 testConnect_sv_unit
+S1
+R0
+w1480990064
+8C:/Users/Nick/Documents/Connect4Project/testConnect.sv
+FC:/Users/Nick/Documents/Connect4Project/testConnect.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Nick/Documents/Connect4Project/testConnect.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/testConnect.sv|
+!i113 1
+R6
+ntest@connect
+vwinCheck
+R1
+R8
+!i10b 1
+!s100 8Nd]NK=n9zhLAXc?^Y1f_3
+IDF;>@o<l`5ET6oRd;]>8;2
+R3
+!s105 winCheck_sv_unit
+S1
+R0
+w1480987176
+8C:/Users/Nick/Documents/Connect4Project/winCheck.sv
+FC:/Users/Nick/Documents/Connect4Project/winCheck.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Nick/Documents/Connect4Project/winCheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|C:/Users/Nick/Documents/Connect4Project/winCheck.sv|
+!i113 1
+R6
+nwin@check

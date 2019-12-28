@@ -1,0 +1,4613 @@
+Starting FULL TEST
+Filling The FIFO
+Performing Write
+wren:x button:1
+full:0 empty:1
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:100000 == B:100110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:001010 < B:100010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111101 + B:010111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:011110 == B:101110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001001 + B:100000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:100010 < B:011100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010001 == 0 27
+Performing Write
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          7 A:000001 < B:011011 
+Emptying The FIFO
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:010100
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:101001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:000001
+BEGINNING LONG TEST 
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:100000 < B:000111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:011000 == 0 40
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          2 A:111110 + B:100100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:100010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          3 A:101110 == B:110111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010110 - B:101100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011011 B:001000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011001 + B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:101010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:110111 > B:001100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:011101 < B:001001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101010 - B:010100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:001011 == 0 38
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:101110 + B:101110 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          4 A:011110 - B:010000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          5 RESULT:101010
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000001 == B:110011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:100011 B:100100 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:010110 B:011100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:010110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:011100
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:001110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          0 A:000001 < B:101010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:001011 == B:011010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111011 > B:000100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:110101 == B:101010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001011 - B:000100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110111 > B:011111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001011 > B:101100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111110 > B:000011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:100100 < B:010001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:100011 B:100100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011100 > B:101000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111101 B:110111 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101100 + B:001101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:010110 == B:001010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:000011 == 0  4
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000001 == 0  6
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:010100 + B:110010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:100011 + B:010010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:110110 - B:110110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:111001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010010 < B:101011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101000 B:110100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:110101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:100001 == B:001101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101100 > B:111011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010011 B:001101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110100 B:101101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000010 - B:100000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:100101 == 0  0
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:101011 - B:111000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:100010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100010 B:000000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:111001 + B:101010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101001 - B:000100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000110 B:010110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:010000 > B:100000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:010111 B:101110 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:000100 == 0 45
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:110011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:110011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:100011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:100101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010001 == B:001100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:100101
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101000 - B:011101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000101 > B:110010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:001011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110111 B:110011 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          7 A:011110 B:100111 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:101110 < B:101111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110100 + B:100110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:001000 + B:010001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:011100 > B:000110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:011111 > B:010111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:011010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110011 > B:111111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101101 - B:100111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:011001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:110101 - B:111100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:101110 < B:000000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110010 > B:101010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:010110 > B:010001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:011100 + B:110101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:111001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001101 < B:000100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110010 - B:110111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101001 B:011101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:001010 == 0  3
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:010001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:001110 > B:111000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:111011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:111011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:100001 B:101100 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:101011 + B:001001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:011011 == B:001100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010101 == 0  0
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011011 == B:101001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:110100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010111 - B:011001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010010 B:110101 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:011111 > B:000010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:111110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:111110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          1 A:101011 == 0 27
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:000111 < B:101001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:000111 == 0 51
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101011 B:100111 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000000 B:100000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110001 == 0  0
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:001100 - B:010100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000000 B:011001 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:001111 - B:111101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:001000 < B:011110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111010 B:110111 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:111000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:110100 B:111011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:100101 B:001100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:111000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:010010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:111010 == B:011101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000111 - B:100011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:111001 - B:110111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:100100
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          0 RESULT:000010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          1 A:011100 B:101001 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:010010 B:111010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:100110 + B:000100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001010 B:011110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000010
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:101010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001000 B:100110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:101010
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          5 RESULT:101010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          6 A:000111 B:100010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:001111 == 0 49
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:100110 < B:011011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:101010
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:111001 B:000000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          2 A:001100 B:111010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:101010 == B:101111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010101 == B:100110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000011 - B:111110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001110 - B:001000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010010 B:000100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000100 - B:011010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:001111 > B:000101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:101010
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          2 A:000100 B:110110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          3 A:101010 - B:111011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          3 RESULT:101111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          4 A:100001 == 0 33
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          5 A:101101 > B:000110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010100 < B:011110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          6 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          7 A:000101 B:100110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          7 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:111011 - B:101000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          0 RESULT:010011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          1 A:111111 + B:110100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111000 B:101000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:110011
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:110011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          3 A:100001 < B:101100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:011011 - B:010100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000101 == 0 26
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101010 B:000010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:110111 == 0  0
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:101111 == B:011100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101011 < B:001110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011001 == B:001101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:001110 == 0  8
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:110001 > B:001111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:010001 + B:110010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110110 B:010010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000011
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          6 RESULT:000011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          7 A:000000 > B:000111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110001 < B:000101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101010 > B:100101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:001101 + B:010010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:000110 < B:010011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010010 > B:111110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001011 < B:011000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:011111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001100 - B:111100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010101 B:010011 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:011000 B:110100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:010000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:010000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110011 - B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:010000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          1 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          2 A:111110 - B:011011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:100011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          3 A:100101 < B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          4 A:000100 < B:111110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          5 A:010111 == B:001011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101000 == B:101000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:001111 == B:100011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110111 == 0 24
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101101 > B:001100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:000100 B:011100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:000110 - B:100110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101000 B:000001 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011101 B:010101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011000 + B:010101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:001011 B:011100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:100000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:101110 > B:100010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:100000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:111010 == B:000000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:100000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111001 > B:111000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111011 + B:010010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:000001 + B:001100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:101101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011001 > B:101001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          6 A:000100 < B:111111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          7 RESULT:101101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:100100 B:111001 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:101001 == B:001110 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:010010 B:010001 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:001101
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:001101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011000 < B:111111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:001110 > B:101001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:000001 < B:010101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:111001 B:010110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010110 - B:000000 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:011010 B:100010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:010001 + B:111111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:010011 B:110100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:110000 == B:111001 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          3 A:001111 == B:001000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100110 B:010110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:010110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:010001 == 0 23
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:010110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:000110 < B:000000 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:111111 == B:100001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:010000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:110111 == 0 52
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          1 RESULT:010000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:010111 > B:101100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:100011 == B:010110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          3 A:001100 > B:001110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          4 A:000011 == B:101100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110011 B:100000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:111011 > B:100110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010111 + B:100001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:101010 + B:011011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110010 B:010111 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111100 == 0 26
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:100101 == 0 27
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100111 B:010110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001000 + B:111001 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          6 A:000101 < B:110011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          7 RESULT:111000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:000100 == 0 51
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000101
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110101 B:101000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:111100 B:101111 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:000100 B:010101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          3 A:110011 - B:100001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001110 B:000111 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          5 A:001010 > B:011100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          6 A:000110 - B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:100100 == 0  5
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:010010
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:010010
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:011000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:100000 B:011101 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110111 B:010101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:010101 B:010100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          3 A:111011 > B:101011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010100 + B:101011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:101010 == 0 35
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:111111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001000 == 0 63
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:011110 B:001000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000110 + B:110010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110110 B:010111 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111101 < B:011101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:111000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:111000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:001000 < B:110111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:111111 == 0 31
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110100 == B:001110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011111 == 0 42
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:110000 == B:010011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:011101 > B:100111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110000 == B:010111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011111 == 0 54
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:100101 == 0 11
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:110001 < B:100101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011111 B:101101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:100101 > B:000111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000101 - B:011011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:111000 == 0  1
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000000 < B:111000 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:001111 < B:101111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111100 B:100000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:111101 < B:010000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:101010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:101110 == 0 11
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110011 B:011100 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:010100 B:111110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:101111 == B:111010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:111000 < B:001101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          2 A:111111 B:000101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          3 A:000000 + B:010010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100110 + B:010001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:010010 + B:000111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011111 > B:100010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:010010
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:110111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:001100 == 0  9
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:011001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:111111 - B:000011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101111 - B:001110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:100001 > B:001001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:111100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111110 - B:000001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010110 + B:010100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:100001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:111101
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          4 RESULT:101010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          5 A:001011 < B:110010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010011 B:101010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010010 - B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:100100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          0 A:111000 < B:111101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000000 - B:011110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:010101 == B:111010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111001 B:000010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101000 + B:011100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001000 == 0 54
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:100010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001110 B:010000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:100110 == B:001111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110000 == 0 26
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000000 == 0  3
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011110 == 0 63
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          3 A:111010 B:011110 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100000 > B:111010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          5 A:000100 - B:001010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010111 + B:110111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111011 - B:000010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110011 == B:111101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:001011 B:111111 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011111 == 0 10
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:111010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010111 > B:010110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:011110 == 0  1
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110101 == 0 35
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          6 A:010001 + B:111010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          7 RESULT:111001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:100110 > B:110100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:011111 == B:001100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:011100 == 0 26
+Performing Write
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          2 A:101110 + B:011010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111101 B:000101 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100011 < B:110100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:111000 == 0 12
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101011 + B:010010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:110000 > B:001000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000100 + B:101111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:001000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:001011 + B:010011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          2 A:100001 == 0 49
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:001000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:001000 + B:001111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100101 > B:010110 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          5 A:101001 > B:111101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          6 RESULT:111101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          6 A:111101 < B:010110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:110011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000111 > B:111101 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:001100 > B:011000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          1 RESULT:011110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          1 A:101110 - B:101101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          2 A:110000 - B:111101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:010111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:101010 B:010100 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          4 A:001111 > B:011001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          5 A:111011 - B:110000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110011 B:001111 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010010 > B:000110 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:011001 == 0 18
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          1 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:110011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:111000 - B:000000 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:110000 + B:000101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:110011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:011000 < B:111011 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          4 A:001111 == 0 22
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          5 RESULT:001011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:101011 < B:001100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:111000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:110101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:000000 - B:110100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:110001 + B:001111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:001100 == 0 34
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000101 < B:111010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111001 == 0 53
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010001 B:001000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001100
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100001 + B:000110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:100101 == B:110100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010001 B:111011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:011101 == 0 13
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:111101 + B:111011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:100101 - B:111000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:100111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111101 B:100011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111101 == B:110101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:110111 - B:110000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:111000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:101101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011000 - B:101101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:101101
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:111010 + B:000101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:101011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          6 RESULT:111111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          7 A:000010 < B:111001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000011 == B:110110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000000 > B:011110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:110111 - B:000101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010101 > B:110111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:110111 == 0 34
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:111010 B:111110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:110010
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011000 == B:111000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:100101 + B:100100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:100010 == 0 51
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101111 - B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:000111 - B:011001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010010 - B:001100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:111111 > B:101101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001010 == 0  3
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:101110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:111111 == 0 23
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:011001 B:010010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:101010 + B:010111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:111111 > B:101111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111111 B:010110 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:100011 + B:011011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:100001 B:010000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:111110
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          4 RESULT:111110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          5 A:010010 B:001000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101100 + B:011001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:111110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:011110 B:110000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000101
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:110100 B:110000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:110101 B:101001 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:110111 B:110100 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111001 B:011010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:110100 - B:001011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011010 > B:000100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101011 == B:110001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111001 + B:000000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:101001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110100 == B:010001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:100000 < B:110011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:000000 + B:100011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:000010 B:010111 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:000101 < B:010010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:111001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000011 B:110001 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011000 < B:100010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111011 > B:001110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110101 B:011101 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:100010 B:111010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:100011
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          2 A:010100 B:101110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:100011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:000000 B:011101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010010 - B:010100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011000 == B:110110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001011 B:000110 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:101000 B:101010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:001110 - B:111001 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:111010 == B:100001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:0
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011011 B:100110 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          3 A:100110 > B:000000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          4 RESULT:111110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001110 > B:111001 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          5 A:100011 == 0 33
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          6 A:011011 + B:011011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:100100 B:010111 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:010101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          0 A:011001 < B:101000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:110110 - B:100001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:001110 B:010010 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          3 A:111011 == B:111011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:111101 B:110100 Invalid OP
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          5 A:100001 < B:010110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          6 RESULT:110110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:110110
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001000 < B:110000 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:010011 - B:101111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:010101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:011110 + B:101111 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          1 A:001001 B:110101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          2 RESULT:010101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:1 empty:0
+CASE:          2 A:110001 == 0  0
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          3 A:010010 - B:111001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:100100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001001 B:110010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:001101
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:001101
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:010110 > B:000000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011001 > B:100010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111000 B:100000 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:011001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:010110 == B:011011 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:011001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:101111 > B:111111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:011001 == B:110101 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:111110 - B:011010 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:111001 B:110100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:100100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001101 - B:011110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:111101 B:100110 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:100100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111101 B:100010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:101111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:010001 B:010011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:010011 + B:111011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:001101 + B:000111 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:101111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:101111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010101 B:101010 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:101111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010111 - B:100000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011101 B:110011 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:001110
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:010100
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:010100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:000101 B:101000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:011111 == B:001110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:110111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:110111
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:110111
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          0 A:100111 - B:011000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          0 RESULT:001111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          1 A:011110 > B:001110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:101001 - B:011001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010000 < B:001000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:011010 + B:001010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:110010 == 0 63
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:111101 == 0 13
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:010010 > B:010111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:001110 > B:100100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:010000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:011110 - B:010010 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          2 A:000100 B:001100 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:100100
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:011000 + B:001101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:000101 > B:011100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:111101 == 0 35
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:100101 + B:101010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:100001 == B:011000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:001100
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:001100
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000100 + B:100101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:111110 B:010101 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:100101
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001111
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:010110 == B:110101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:000011 < B:001100 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:010111 == B:101110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:101001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:011100 B:010011 Invalid OP
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:101001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:101111 == 0 26
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111011 > B:010011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:010001 - B:100110 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:010011 == 0 18
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:100110 > B:100101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010111 B:011011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:011001 B:010111 Invalid OP
+Emptying The FIFO
+Performing Read
+wren:0 button:1
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:101011
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+full:0 empty:1
+CASE:          6 RESULT:000001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:000001
+Activating Reset
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:000111 - B:010110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:011011 B:010110 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:011010 B:000011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:100111 == 0 63
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:011101 + B:111101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:101000 > B:100100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:010110 - B:000011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001111 > B:110101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:100111 B:111010 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:001000 + B:000000 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000101 == B:000100 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:110011 < B:001011 
+Filling The FIFO
+Performing Write
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          0 A:110110 B:111000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:100000 > B:101110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:100101 B:111000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:101111 == B:001110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:001001 B:110000 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:001110 > B:011111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110010 + B:100000 
+Performing Write
+wren:1 button:0
+full:1 empty:0
+wren:1 button:1
+CASE:          7 A:011011 - B:010010 
+Filling The FIFO
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000000 > B:010110 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:000011 B:101011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:110111 B:001101 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:100010 - B:100001 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:111011 > B:111011 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:101101 - B:001111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:010110 B:010011 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:111110 B:110111 Invalid OP
+Filling The FIFO
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          0 A:000101 < B:001101 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          1 A:001110 B:111110 Invalid OP
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          2 A:111010 > B:011010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          3 A:110111 == 0 38
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          4 A:101000 + B:001010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          5 A:100000 > B:011010 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          6 A:110001 > B:110111 
+Performing Write
+wren:1 button:0
+wren:1 button:1
+CASE:          7 A:000101 B:111011 Invalid OP
+Emptying The FIFO
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:0
+wren:0 button:1
+CASE:          0 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:000000
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:010010
+Performing Read
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          7 RESULT:001001
+Emptying The FIFO
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:001001
+Emptying The FIFO
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          1 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          2 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          3 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          4 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          5 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          6 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          7 RESULT:001001
+Performing Read
+wren:0 button:0
+wren:0 button:1
+CASE:          0 RESULT:001001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+full:0 empty:0
+wren:1 button:1
+CASE:          2 A:111100 > B:100001 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          2 RESULT:000001
+Performing Write
+wren:1 button:1
+wren:1 button:0
+wren:1 button:1
+full:0 empty:0
+CASE:          3 A:011011 > B:110000 
+Performing Read
+wren:0 button:1
+wren:0 button:0
+full:0 empty:1
+wren:0 button:1
+CASE:          3 RESULT:000001
+Ending FULL TEST 
